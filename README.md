@@ -4,7 +4,7 @@
 
 # Repository Overview
 
-This repository contains Python practical assignments demonstrating various Object-Oriented Programming concepts, decorators, special methods, and design patterns.
+This repository contains Python practical assignments demonstrating various Object-Oriented Programming concepts, decorators, special methods, design patterns, and dynamic programming algorithms.
 
 ---
 
@@ -16,19 +16,19 @@ A menu-driven Library Management System that allows users to manage books, artic
 
 ## Features
 
-- Add Books & Articles
-- Register Patrons
-- Borrow & Return Books
-- Borrow & Return Articles
-- Display Library Records
-- Display Patron Details
+* Add Books & Articles
+* Register Patrons
+* Borrow & Return Books
+* Borrow & Return Articles
+* Display Library Records
+* Display Patron Details
 
 ## Concepts Used
 
-- Classes & Objects
-- Constructors
-- Encapsulation
-- Dictionaries & Lists
+* Classes & Objects
+* Constructors
+* Encapsulation
+* Dictionaries & Lists
 
 ---
 
@@ -40,17 +40,17 @@ A Python application demonstrating decorators, class methods, static methods, an
 
 ## Features
 
-- Report Generation
-- Activity Tracking
-- Library Name Update
-- Automatic Activity Counting
+* Report Generation
+* Activity Tracking
+* Library Name Update
+* Automatic Activity Counting
 
 ## Concepts Used
 
-- Decorators
-- Class Methods
-- Static Methods
-- Magic Methods (`__str__()`, `__len__()`)
+* Decorators
+* Class Methods
+* Static Methods
+* Magic Methods (`__str__()`, `__len__()`)
 
 ---
 
@@ -62,37 +62,112 @@ A payment processing system that implements the Strategy Design Pattern, allowin
 
 ## Features
 
-- Credit Card Payment
-- PayPal Payment
-- UPI Payment
-- Reward Points
+* Credit Card Payment
+* PayPal Payment
+* UPI Payment
+* Reward Points
 
 ## Concepts Used
 
-- Inheritance
-- Polymorphism
-- Method Overriding
-- Strategy Design Pattern
+* Inheritance
+* Polymorphism
+* Method Overriding
+* Strategy Design Pattern
+
+---
+
+# Practical 4 – Fibonacci Number using Iterative Approach
+
+## Overview
+
+A Python program that efficiently calculates the nth Fibonacci number using an iterative approach.
+
+## Features
+
+* Calculate the nth Fibonacci number
+* Display the Fibonacci series up to n terms
+* Takes input from the user
+
+## Concepts Used
+
+* Functions
+* Iteration
+* Loops
+* Conditional Statements
+* User Input
+
+---
+
+# Practical 5 – Longest Common Subsequence (LCS)
+
+## Overview
+
+A Python program that finds the Longest Common Subsequence between two strings using Dynamic Programming.
+
+## Features
+
+* Accepts two strings from the user
+* Calculates the length of the LCS
+* Displays the actual Longest Common Subsequence
+* Supports case-insensitive LCS comparison
+
+## Concepts Used
+
+* Dynamic Programming
+* 2D Lists
+* Functions
+* String Manipulation
+* Backtracking
+
+---
+
+# Practical 6 – 0/1 Knapsack using Dynamic Programming
+
+## Overview
+
+A Python program that solves the 0/1 Knapsack problem using Dynamic Programming to maximize profit within a given capacity.
+
+## Features
+
+* Calculates maximum profit
+* Identifies selected items
+* Displays total weight used
+* Uses user-defined item weights, profits, and capacity
+
+## Concepts Used
+
+* Dynamic Programming
+* Functions
+* Lists
+* 2D Lists
+* Backtracking
+* Optimization
 
 ---
 
 # Python Concepts Covered
 
-- Object-Oriented Programming
-- Classes & Objects
-- Constructors
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Decorators
-- Class Methods
-- Static Methods
-- Magic Methods
-- Strategy Design Pattern
+* Object-Oriented Programming
+* Classes & Objects
+* Constructors
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Decorators
+* Class Methods
+* Static Methods
+* Magic Methods
+* Strategy Design Pattern
+* Functions
+* Loops & Iteration
+* String Manipulation
+* Dynamic Programming
+* Backtracking
+* Optimization
 
 ---
 
 # Technologies Used
 
-- Python 3
-- Standard Python Libraries
+* Python 3
+* Standard Python Libraries
