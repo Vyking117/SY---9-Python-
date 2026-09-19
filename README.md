@@ -4,7 +4,7 @@
 
 # Repository Overview
 
-This repository contains Python practical assignments demonstrating various Object-Oriented Programming concepts, decorators, special methods, design patterns, and dynamic programming algorithms.
+This repository contains Python practical assignments demonstrating various Object-Oriented Programming concepts, decorators, special methods, design patterns, regular expressions, file handling, and dynamic programming algorithms.
 
 ---
 
@@ -145,6 +145,55 @@ A Python program that solves the 0/1 Knapsack problem using Dynamic Programming 
 
 ---
 
+# Practical 7 – Email Extraction using Regular Expressions
+
+## Overview
+
+A Python program that uses Regular Expressions (Regex) to identify and extract valid email addresses from a given text.
+
+## Features
+
+* Searches for email addresses in text
+* Extracts matching email addresses
+* Displays all detected email addresses
+* Counts the total number of email addresses found
+
+## Concepts Used
+
+* Regular Expressions (Regex)
+* `re` Module
+* Pattern Matching
+* String Processing
+* `re.findall()`
+
+---
+
+# Practical 8 – File Handling
+
+## Overview
+
+A Python program that reads data from a text file, counts the total number of lines, and extracts the last three lines of the file.
+
+## Features
+
+* Reads data from `input.txt`
+* Counts the total number of lines
+* Extracts the last three lines
+* Displays the extracted lines
+* Writes the last three lines to `output.txt`
+
+## Concepts Used
+
+* File Handling
+* Reading Files
+* Writing Files
+* `readlines()`
+* `writelines()`
+* Lists and List Slicing
+* `with open()`
+
+---
+
 # Python Concepts Covered
 
 * Object-Oriented Programming
@@ -161,6 +210,8 @@ A Python program that solves the 0/1 Knapsack problem using Dynamic Programming 
 * Functions
 * Loops & Iteration
 * String Manipulation
+* Regular Expressions
+* File Handling
 * Dynamic Programming
 * Backtracking
 * Optimization
@@ -171,3 +222,4 @@ A Python program that solves the 0/1 Knapsack problem using Dynamic Programming 
 
 * Python 3
 * Standard Python Libraries
+* `re` Module
